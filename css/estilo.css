@@ -1,0 +1,127 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+</style>
+
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+ul li{
+	list-style: none;
+}
+
+.site{
+	background-color: #1B4965;	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-principal{
+	width: 100%;
+	
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 5px;
+}
+
+.menu h1{
+	color: white;
+}
+
+.box-principal{
+	width: 100%;
+}
+
+.box-flex{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.box-center{
+	width: 65%;
+	padding: 2px ;
+}
+
+.divisor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.box-princpalPF{
+	width: 45%;
+	height: 450px;
+	background-color: #343a40;
+	margin-right: 10px;
+	border: 1px solid #343a40;
+	border-radius: .25rem;
+}
+
+.titulo{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.titulo h3{
+	color: #17a2b8;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.box-produtos, .box-financeiro{
+	width: 100%;
+	height: 320px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.botoesPF{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.teste{
+	width: 100%;
+}
+
+.botao{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.button-largura{
+	width: 70%;
+}
+
+html [type=button] {
+    -webkit-appearance: button;
+}
+
+
+
+
+
